@@ -1,6 +1,6 @@
 {
   "name": "fdstruct",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "A CLI for managing symlinks and folder structures using templates",
   "author": "Horatzio",
   "license": "GPL-3.0-only",

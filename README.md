@@ -1,4 +1,6 @@
-# fdstruct-cli
+# FDStruct CLI
+
+FDStruct, coming from Folder Structure is a Node CLI (Command-Line Interface) used to manage symlinks (or hardlinks!) in a structured manner, using configuration files.
 
 Command line tool
 

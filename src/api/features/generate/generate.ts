@@ -14,8 +14,4 @@ export async function executeGenerate(file: string) {
   }
 
   await generateVisitor.finishVisiting();
-
-  // const folderStructure = await loadFolderStructure(filePath);
-
-  // await createFolderStructure(rootDir, folderStructure);
 }

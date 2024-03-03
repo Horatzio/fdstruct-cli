@@ -4,11 +4,7 @@ import * as fs from "fs-extra";
 import * as yaml from "yaml";
 import { isValidPathString } from "../util/path-sanitization";
 import { validateYmlFileExists } from "../../commands/option-validator";
-
-const DEFAULTS: FDStructConfig = {
-  debug: false,
-  variables: {}
-};
+import { DEFAULTS } from "./fdstruct-config";
 
 function validateConfig(configContents: any): Partial<FDStructConfig> {
   const config: Partial<FDStructConfig> = {};

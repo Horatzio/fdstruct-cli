@@ -1,0 +1,6 @@
+test-folder:
+  - file2.txt
+  - file3.txt
+  - new-file.txt
+test-folder-3:
+  - file4.txt

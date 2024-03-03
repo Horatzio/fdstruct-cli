@@ -1,0 +1,11 @@
+{
+  "configurations": [
+    {
+      "command": "fdstruct help",
+      "name": "FDstruct: Start",
+      "request": "launch",
+      "type": "node-terminal",
+      "preLaunchTask": "${defaultBuildTask}"
+    }
+  ]
+}

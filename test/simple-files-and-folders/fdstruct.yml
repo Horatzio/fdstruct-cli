@@ -1,0 +1,9 @@
+test-folder:
+    - test-subdir:
+        - testfile3.yml
+    - test-subdir2:
+        - file1.txt
+        - file2.json
+        - file3.md
+    - test-subdir3:
+        - file4.md

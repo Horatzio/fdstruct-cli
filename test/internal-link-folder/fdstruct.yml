@@ -1,0 +1,13 @@
+test-internal-link-generated:
+    - sample-jsons:
+      - file1.json
+      - file2.json
+      - notfile1.jason
+      - file3.txt
+      - file4json.config
+      - dir1:
+            - dir1-file1.json
+    - jsons-simple->"./sample-jsons":
+          - "*.json"
+    - jsons-all->"./sample-jsons":
+          - "**/*.json"

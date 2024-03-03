@@ -1,0 +1,16 @@
+${SomeRootFolder}: "C:/Projects/fdstruct-cli/docs/samples/root-folder"
+root-folder:
+        - file1-link.txt->"${SomeRootFolder}/file1.txt"
+        - file1.txt
+        - file2.json
+        - abc2
+        - sub-folder-1-link->"sub-folder-1"
+        - sub-folder-1:
+                  - abc.json
+                  - abc3
+                  - otherfile.yaml
+        - "sub-folder-1-link-extra->sub-folder-1":
+                  - "*.yml"
+                  - "*.yaml"
+root-folder2:
+        - abc

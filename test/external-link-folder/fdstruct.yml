@@ -1,0 +1,5 @@
+test-external-link-generated:
+    - jsons-simple->"../test-external-link-original":
+          - "*.json"
+    - jsons-explicit->"../test-external-link-original":
+          - "**/*.json"

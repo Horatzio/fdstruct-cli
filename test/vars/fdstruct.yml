@@ -1,0 +1,18 @@
+${SomeRootFolder}: "."
+${File1}: "fileOne"
+${Prefix}: "test-"
+test-root-folder:
+        - file1-link.txt->"${SomeRootFolder}/${File1}.txt"
+        - ${File1}.txt
+        - ${Prefix}${File1}.txt
+        - sub-folder-1:
+                  - ${File1}.json
+                  - test-file1.yaml
+                  - test-file2.yml
+                  - test-file3.json
+                  - test-file4.txt
+        - "sub-folder-link-1->sub-folder-1":
+                  - "${File1}.json"
+                  - "${Prefix}*.json"
+        - "sub-folder-link-2->sub-folder-1":
+                  - "${Prefix}*"

@@ -1,0 +1,4 @@
+test-virtual-folder->./test-sample-folder:
+  - "*.yml"
+test-virtual-folder-2->./test-sample-folder:
+  - "**/*.txt"

@@ -30,7 +30,10 @@ async function parseVariables(folderStructure: FolderStructureInput): Promise<FD
   return variables;
 }
 
-async function expandVariables(folderStructure: FolderStructureInput, variables: FDstructVariables) {
+async function expandVariables(
+  folderStructure: FolderStructureInput,
+  variables: FDstructVariables
+) {
   for (const folder in folderStructure) {
     const contents = folderStructure[folder];
 

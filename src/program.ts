@@ -22,7 +22,7 @@ async function main() {
 console.log();
 main();
 
-process.on("unhandledRejection", function (err: Error) {
+process.on("unhandledRejection", function(err: Error) {
   console.error(err.stack);
   program.error("", { exitCode: 1 });
 });

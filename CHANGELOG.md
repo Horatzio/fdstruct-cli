@@ -8,5 +8,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.2.2] - 2024-03-03
 
 ### Changed
+
 - Renamed to `fdstruct` and migrated from `fstruct-cli` in order to avoid naming conflict with pre-existing 'fstruct' package
 - See https://github.com/Horatzio/fstruct-cli for initial history and pre 0.2.2 versions

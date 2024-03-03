@@ -139,9 +139,9 @@ async function findDifferences(oldNodes: FDStructNode[], newNodes: FDStructNode[
   const commonNodes = newNodes
     .map(node => [oldNodes.find(otherNode => otherNode.isEqual(node)), node])
     .filter(([oldNode, newNode]) => oldNode !== undefined && newNode !== undefined) as [
-      FDStructNode,
-      FDStructNode
-    ][];
+    FDStructNode,
+    FDStructNode
+  ][];
 
   return {
     addedNodes,
